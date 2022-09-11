@@ -1,0 +1,26 @@
+<annotation>
+	<folder>tennis_racquet</folder>
+	<filename>tennis_racquet.834f2126-2e94-11ed-ba3c-6c6a77e5ebbe.jpg</filename>
+	<path>C:\Users\antho\Desktop\VSC\TFOD\Tensorflow\workspace\images\collectedimages\tennis_racquet\tennis_racquet.834f2126-2e94-11ed-ba3c-6c6a77e5ebbe.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tennis_Racquet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>298</xmin>
+			<ymin>520</ymin>
+			<xmax>526</xmax>
+			<ymax>828</ymax>
+		</bndbox>
+	</object>
+</annotation>

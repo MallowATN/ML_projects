@@ -1,0 +1,454 @@
+1651618774329	geckodriver	INFO	Listening on 127.0.0.1:58902
+1651618777336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58903" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofile71bWo4"
+1651618777636	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofile71bWo4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58903/devtools/browser/c8ef23a4-3e0f-46dc-8f0b-06ae0c066d03
+1651618779110	Marionette	INFO	Listening on port 58931
+Read port: 58931
+1651618779204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651618785013	Marionette	INFO	Stopped listening on port 58931
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651618800596	geckodriver	INFO	Listening on 127.0.0.1:58988
+1651618803601	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58989" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileHKYm0j"
+1651618803901	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileHKYm0j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58989/devtools/browser/4ed74416-388d-417c-8f5a-e460d99ba44d
+1651618805345	Marionette	INFO	Listening on port 59018
+Read port: 59018
+1651618805453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651618881425	Marionette	INFO	Stopped listening on port 59018
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651618919174	geckodriver	INFO	Listening on 127.0.0.1:59197
+1651618922175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59198" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileQrxnhE"
+1651618922483	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileQrxnhE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59198/devtools/browser/84890248-d678-4ade-a213-da0e2e2a4c9c
+1651618923879	Marionette	INFO	Listening on port 59227
+Read port: 59227
+1651618923908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651618993707	Marionette	INFO	Stopped listening on port 59227
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651619010419	geckodriver	INFO	Listening on 127.0.0.1:59404
+1651619013436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59405" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileYZyM5n"
+1651619013725	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileYZyM5n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59405/devtools/browser/ada16488-da82-45c3-bba9-7d1a854dcd77
+1651619015136	Marionette	INFO	Listening on port 59434
+Read port: 59434
+1651619015171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651619587150	Marionette	INFO	Stopped listening on port 59434
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofileYZyM5n\protections.sqlite
+1651619723541	geckodriver	INFO	Listening on 127.0.0.1:60058
+1651619726547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60059" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilewf3uvN"
+1651619726838	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilewf3uvN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60059/devtools/browser/2280501d-af83-4ec0-922e-3f054677c3df
+1651619728238	Marionette	INFO	Listening on port 60085
+Read port: 60085
+1651619728296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651620127123	Marionette	INFO	Stopped listening on port 60085
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651620502931	geckodriver	INFO	Listening on 127.0.0.1:55010
+1651620505933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55011" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofiledeXgZj"
+1651620506227	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofiledeXgZj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55011/devtools/browser/44eca0ef-4a49-458e-95d6-df3021f40b83
+1651620507632	Marionette	INFO	Listening on port 55037
+Read port: 55037
+1651620507676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651622701575	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651622705624	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651622708627	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651622737609	Marionette	INFO	Stopped listening on port 55037
+[Parent 17576, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 17576, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1651623263382	geckodriver	INFO	Listening on 127.0.0.1:49508
+1651623266392	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49509" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofiletNvQOO"
+1651623266682	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofiletNvQOO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49509/devtools/browser/eb6969e9-35b6-4453-a13f-8de6c3631c30
+1651623268072	Marionette	INFO	Listening on port 49539
+Read port: 49539
+1651623268145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651623270279	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651623271000	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651623274091	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651623282071	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651623285087	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651623306790	Marionette	INFO	Stopped listening on port 49539
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofiletNvQOO\protections.sqlite
+1651624221740	geckodriver	INFO	Listening on 127.0.0.1:50698
+1651624224746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilecgSHNX"
+1651624225035	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilecgSHNX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50699/devtools/browser/754bf15c-525d-43c6-9f14-c04b9be54521
+1651624226438	Marionette	INFO	Listening on port 50726
+Read port: 50726
+1651624226483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651624228372	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651624229283	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651624263254	Marionette	INFO	Stopped listening on port 50726
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofilecgSHNX\protections.sqlite
+1651624921161	geckodriver	INFO	Listening on 127.0.0.1:64820
+1651624924166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofile8tUTNn"
+1651624924454	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofile8tUTNn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64821/devtools/browser/ba2e0b27-82d5-445b-97eb-00347f18ad83
+1651624925951	Marionette	INFO	Listening on port 64850
+Read port: 64850
+1651624926008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651624996191	Marionette	INFO	Stopped listening on port 64850
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ngs file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileIkpqsL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64991/devtools/browser/07856c9d-e749-46a4-98d1-e4d70ee04d22
+1651624987187	Marionette	INFO	Listening on port 65020
+Read port: 65020
+1651624987255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651624988833	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651624989748	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651624992865	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651624994580	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625023925	Marionette	INFO	Stopped listening on port 65020
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofileIkpqsL\protections.sqlite
+1651625088777	geckodriver	INFO	Listening on 127.0.0.1:65185
+1651625091796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65186" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileCq4Vhe"
+1651625092100	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileCq4Vhe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65186/devtools/browser/85c9dc5d-7766-4154-836f-f5e02660b96f
+1651625093570	Marionette	INFO	Listening on port 65214
+Read port: 65214
+1651625093652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651625135419	Marionette	INFO	Stopped listening on port 65211651625136637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65307" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileqAY0ZW"
+1651625136928	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileqAY0ZW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65307/devtools/browser/1db04a2c-df4c-41f6-94d9-7fdf81c0992b
+1651625138320	Marionette	INFO	Listening on port 65333
+Read port: 65333
+1651625138370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651625174142	Marionette	INFO	Stopped listening on port 65333
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofileqAY0ZW\protections.sqlite
+1651625434353	geckodriver	INFO	Listening on 127.0.0.1:49343
+1651625437365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49344" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilediSl0J"
+1651625437662	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilediSl0J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49344/devtools/browser/7ce770fd-1eba-46fd-a581-296ef91845b3
+1651625439046	Marionette	INFO	Listening on port 49371
+Read port: 49371
+1651625439099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651625441084	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625441806	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625444906	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625448004	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625508472	Marionette	INFO	Stopped listening on port 49371
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ngs file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileEl6VRr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49467/devtools/browser/bd6c3e0b-7ed4-433b-8edb-0aed17fc0c6f
+1651625481941	Marionette	INFO	Listening on port 49493
+Read port: 49493
+1651625482001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651625483835	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625484556	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625487811	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625497583	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625499294	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625505416	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625508410	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625521835	Marionette	INFO	Stopped listening on port 49493
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofileEl6VRr\protections.sqlite
+1651625927740	geckodriver	INFO	Listening on 127.0.0.1:50047
+1651625930745	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50048" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilemb8t77"
+1651625931035	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilemb8t77\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50048/devtools/browser/be55fad1-69fa-49d0-a50d-619b3a6e64d4
+1651625932461	Marionette	INFO	Listening on port 50076
+Read port: 50076
+1651625932485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651625934492	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651625967756	Marionette	INFO	Stopped listening on port 50076
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofilemb8t77\protections.sqlite
+1651629685897	geckodriver	INFO	Listening on 127.0.0.1:50036
+1651629688900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50037" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileByankY"
+1651629689195	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileByankY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50037/devtools/browser/b64c5f9f-08d5-4b31-984d-e451eb3bf327
+1651629690679	Marionette	INFO	Listening on port 50067
+Read port: 50067
+1651629690738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651629692591	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651629694306	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651629697535	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651629703534	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651629728188	Marionette	INFO	Stopped listening on port 50067
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofileByankY\protections.sqlite
+1651699526189	geckodriver	INFO	Listening on 127.0.0.1:54282
+1651699529197	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileVL9KZ7"
+1651699529491	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileVL9KZ7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54283/devtools/browser/78a4399e-2f1d-4ca9-bb72-e5b66b6778f9
+1651699530944	Marionette	INFO	Listening on port 54318
+Read port: 54318
+1651699531048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651699533137	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651699534846	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651699538005	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651699539724	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651699541886	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651699545976	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1651699569530	Marionette	INFO	Stopped listening on port 54318
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofileVL9KZ7\protections.sqlite
+1651873709080	geckodriver	INFO	Listening on 127.0.0.1:62326
+1651873712094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62327" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileP0zJjv"
+1651873712401	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofileP0zJjv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62327/devtools/browser/f57d580c-6382-464c-9fa0-d55e7fbe6a60
+1651873713953	Marionette	INFO	Listening on port 62356
+Read port: 62356
+1651873714042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651873748810	Marionette	INFO	Stopped listening on port 62356
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofileP0zJjv\protections.sqlite
+1652121336172	geckodriver	INFO	Listening on 127.0.0.1:51206
+1652121339181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilellKrhl"
+1652121339588	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofilellKrhl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51207/devtools/browser/1dd36577-ed3b-41e3-b693-897e8c304af9
+1652121341421	Marionette	INFO	Listening on port 51230
+Read port: 51230
+1652121341446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652121343725	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652121347157	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652121467556	Marionette	INFO	Stopped listening on port 51230
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 712, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652121471949	geckodriver	INFO	Listening on 127.0.0.1:51296
+1652121474953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofile9jzz7Y"
+1652121475223	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\antho\\AppData\\Local\\Temp\\rust_mozprofile9jzz7Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51297/devtools/browser/af22a0d2-a2d2-4ff4-9e8b-b95eb47046fb
+1652121476904	Marionette	INFO	Listening on port 51320
+Read port: 51320
+1652121477003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652121511574	Marionette	INFO	Stopped listening on port 51320
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\antho\AppData\Local\Temp\rust_mozprofile9jzz7Y\protections.sqlite

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>person</folder>
+	<filename>person.abc3879c-2e93-11ed-a23e-6c6a77e5ebbe.jpg</filename>
+	<path>C:\Users\antho\Desktop\VSC\TFOD\Tensorflow\workspace\images\collectedimages\person\person.abc3879c-2e93-11ed-a23e-6c6a77e5ebbe.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>163</xmin>
+			<ymin>568</ymin>
+			<xmax>515</xmax>
+			<ymax>1280</ymax>
+		</bndbox>
+	</object>
+</annotation>

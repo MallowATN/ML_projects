@@ -1,0 +1,5 @@
+Disclaimer: None of the Finance section is considered financial advice, and that everything 
+that is stated should be taken with a grain of salt. This is solely for educational usage/purpose. 
+The trading bot with the prediction models will not be added to the repository due to private usage.
+
+-TN

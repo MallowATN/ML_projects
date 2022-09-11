@@ -1,0 +1,26 @@
+<annotation>
+	<folder>book</folder>
+	<filename>book.c67374c8-2e94-11ed-9206-6c6a77e5ebbe.jpg</filename>
+	<path>C:\Users\antho\Desktop\VSC\TFOD\Tensorflow\workspace\images\collectedimages\book\book.c67374c8-2e94-11ed-9206-6c6a77e5ebbe.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Book</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>128</xmin>
+			<ymin>442</ymin>
+			<xmax>541</xmax>
+			<ymax>1032</ymax>
+		</bndbox>
+	</object>
+</annotation>

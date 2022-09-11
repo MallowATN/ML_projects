@@ -1,0 +1,5 @@
+It's region specific in case you forgot, can't grab data if it's 
+not available in US area. Probably would have to ask Koni/Matt/Aaron
+since they need a Binance trading bot.
+
+-TN

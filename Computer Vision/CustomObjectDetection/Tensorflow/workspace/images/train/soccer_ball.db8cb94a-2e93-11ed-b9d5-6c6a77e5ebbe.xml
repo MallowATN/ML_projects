@@ -1,0 +1,26 @@
+<annotation>
+	<folder>soccer_ball</folder>
+	<filename>soccer_ball.db8cb94a-2e93-11ed-b9d5-6c6a77e5ebbe.jpg</filename>
+	<path>C:\Users\antho\Desktop\VSC\TFOD\Tensorflow\workspace\images\collectedimages\soccer_ball\soccer_ball.db8cb94a-2e93-11ed-b9d5-6c6a77e5ebbe.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Soccer_Ball</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>513</ymin>
+			<xmax>364</xmax>
+			<ymax>894</ymax>
+		</bndbox>
+	</object>
+</annotation>
