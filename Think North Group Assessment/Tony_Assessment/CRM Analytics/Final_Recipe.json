@@ -1,0 +1,630 @@
+{
+    "version": "56.0",
+    "nodes": {
+        "LOAD_DATASET0": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "label": "olist_sellers_dataset",
+                    "name": "olist_sellers_dataset",
+                    "type": "analyticsDataset"
+                },
+                "fields": [
+                    "seller_city",
+                    "seller_state",
+                    "seller_id",
+                    "seller_zip_code_prefix"
+                ],
+                "sampleDetails": {
+                    "sortBy": [],
+                    "type": "TopN"
+                }
+            },
+            "sources": []
+        },
+        "LOAD_DATASET2": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "label": "olist_orders_dataset",
+                    "name": "olist_orders_dataset",
+                    "type": "analyticsDataset"
+                },
+                "fields": [
+                    "order_delivered_customer_date",
+                    "order_status",
+                    "order_purchase_timestamp",
+                    "order_estimated_delivery_date",
+                    "customer_id",
+                    "order_delivered_carrier_date",
+                    "order_id",
+                    "order_approved_at"
+                ],
+                "sampleDetails": {
+                    "sortBy": [],
+                    "type": "TopN"
+                }
+            },
+            "sources": []
+        },
+        "LOAD_DATASET3": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "label": "olist_order_reviews_dataset_sample_20k_orders",
+                    "name": "olist_order_reviews_dataset_sample_20k_orders1",
+                    "type": "analyticsDataset"
+                },
+                "fields": [
+                    "review_id",
+                    "review_creation_date",
+                    "review_answer_timestamp",
+                    "review_comment_title",
+                    "order_id",
+                    "review_comment_message",
+                    "review_score"
+                ],
+                "sampleDetails": {
+                    "sortBy": [],
+                    "type": "TopN"
+                }
+            },
+            "sources": []
+        },
+        "LOAD_DATASET4": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "label": "olist_order_items_dataset",
+                    "name": "olist_order_items_dataset",
+                    "type": "analyticsDataset"
+                },
+                "fields": [
+                    "product_id",
+                    "order_id",
+                    "seller_id",
+                    "shipping_limit_date",
+                    "order_item_id",
+                    "price",
+                    "freight_value"
+                ],
+                "sampleDetails": {
+                    "sortBy": [],
+                    "type": "TopN"
+                }
+            },
+            "sources": []
+        },
+        "JOIN0": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "order_id"
+                ],
+                "rightKeys": [
+                    "order_id"
+                ],
+                "rightQualifier": "olist_orde"
+            },
+            "schema": {
+                "fields": [],
+                "slice": {
+                    "fields": [],
+                    "ignoreMissingFields": true,
+                    "mode": "DROP"
+                }
+            },
+            "sources": [
+                "LOAD_DATASET2",
+                "LOAD_DATASET3"
+            ]
+        },
+        "JOIN1": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "order_id"
+                ],
+                "rightKeys": [
+                    "order_id"
+                ],
+                "rightQualifier": "Join0"
+            },
+            "schema": {
+                "fields": [],
+                "slice": {
+                    "fields": [],
+                    "ignoreMissingFields": true,
+                    "mode": "DROP"
+                }
+            },
+            "sources": [
+                "LOAD_DATASET4",
+                "JOIN0"
+            ]
+        },
+        "JOIN2": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "seller_id"
+                ],
+                "rightKeys": [
+                    "seller_id"
+                ],
+                "rightQualifier": "sell"
+            },
+            "schema": {
+                "fields": [],
+                "slice": {
+                    "fields": [],
+                    "ignoreMissingFields": true,
+                    "mode": "DROP"
+                }
+            },
+            "sources": [
+                "JOIN1",
+                "LOAD_DATASET0"
+            ]
+        },
+        "LOAD_DATASET5": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "label": "olist_products_dataset_sample_20k_orders(1)",
+                    "name": "olist_products_dataset_sample_20k_orders_1",
+                    "type": "analyticsDataset"
+                },
+                "fields": [
+                    "product_category_name",
+                    "product_id",
+                    "product_height_cm",
+                    "product_description_length",
+                    "product_name_length",
+                    "product_weight_g",
+                    "product_photos_qty",
+                    "product_width_cm",
+                    "product_length_cm"
+                ],
+                "sampleDetails": {
+                    "sortBy": [],
+                    "type": "TopN"
+                }
+            },
+            "sources": []
+        },
+        "JOIN3": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "product_id"
+                ],
+                "rightKeys": [
+                    "product_id"
+                ],
+                "rightQualifier": "olist_prod"
+            },
+            "schema": {
+                "fields": [],
+                "slice": {
+                    "fields": [],
+                    "ignoreMissingFields": true,
+                    "mode": "DROP"
+                }
+            },
+            "sources": [
+                "JOIN2",
+                "JOIN4"
+            ]
+        },
+        "JOIN4": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "product_category_name"
+                ],
+                "rightKeys": [
+                    "product_category_name"
+                ],
+                "rightQualifier": "product_ca"
+            },
+            "schema": {
+                "fields": [],
+                "slice": {
+                    "fields": [],
+                    "ignoreMissingFields": true,
+                    "mode": "DROP"
+                }
+            },
+            "sources": [
+                "LOAD_DATASET5",
+                "LOAD_DATASET7"
+            ]
+        },
+        "SPLIT1": {
+            "action": "split",
+            "parameters": {
+                "delimiter": " ",
+                "sourceField": "Join0.order_estimated_delivery_date",
+                "targetFields": [
+                    {
+                        "label": "order_estimated_delivery_date",
+                        "name": "Join0.order_estimated_delivery_date_split"
+                    },
+                    {
+                        "label": "order_estimated_delivery_date Split",
+                        "name": "Join0.order_estimated_delivery_date_split1"
+                    }
+                ]
+            },
+            "sources": [
+                "SPLIT2"
+            ]
+        },
+        "SPLIT2": {
+            "action": "split",
+            "parameters": {
+                "delimiter": " ",
+                "sourceField": "Join0.order_purchase_timestamp",
+                "targetFields": [
+                    {
+                        "label": "order_purchase_timestamp",
+                        "name": "Join0.order_purchase_timestamp_split"
+                    },
+                    {
+                        "label": "order_purchase_timestamp Split",
+                        "name": "Join0.order_purchase_timestamp_split1"
+                    }
+                ]
+            },
+            "sources": [
+                "JOIN3"
+            ]
+        },
+        "SPLIT3": {
+            "action": "split",
+            "parameters": {
+                "delimiter": " ",
+                "sourceField": "Join0.order_delivered_customer_date",
+                "targetFields": [
+                    {
+                        "label": "order_delivered_customer_date",
+                        "name": "Join0.order_delivered_customer_date_split"
+                    },
+                    {
+                        "label": "order_delivered_customer_date Split",
+                        "name": "Join0.order_delivered_customer_date_split1"
+                    }
+                ]
+            },
+            "sources": [
+                "SPLIT1"
+            ]
+        },
+        "DROP_FIELDS0": {
+            "action": "schema",
+            "parameters": {
+                "fields": [],
+                "slice": {
+                    "fields": [
+                        "Join0.order_delivered_customer_date_split1",
+                        "Join0.order_estimated_delivery_date_split1",
+                        "Join0.order_purchase_timestamp_split1"
+                    ],
+                    "ignoreMissingFields": true,
+                    "mode": "DROP"
+                }
+            },
+            "sources": [
+                "SPLIT3"
+            ]
+        },
+        "LOAD_DATASET7": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "label": "product_category_name_translation(1)",
+                    "name": "product_category_name_translation_1",
+                    "type": "analyticsDataset"
+                },
+                "fields": [
+                    "product_category_name",
+                    "product_category_name_english"
+                ],
+                "sampleDetails": {
+                    "sortBy": [],
+                    "type": "TopN"
+                }
+            },
+            "sources": []
+        },
+        "EXTRACT0": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "DROP_FIELDS0"
+            ]
+        },
+        "AGGREGATE1": {
+            "action": "aggregate",
+            "parameters": {
+                "aggregations": [
+                    {
+                        "action": "AVG",
+                        "label": "Average review_score",
+                        "name": "AVG_Join0.olist_orde.review_score",
+                        "source": "Join0.olist_orde.review_score"
+                    }
+                ],
+                "groupings": [
+                    "seller_id"
+                ],
+                "nodeType": "STANDARD",
+                "pivots": []
+            },
+            "sources": [
+                "EXTRACT0"
+            ]
+        },
+        "JOIN5": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "seller_id"
+                ],
+                "rightKeys": [
+                    "seller_id"
+                ],
+                "rightQualifier": "Aggregate0"
+            },
+            "schema": {
+                "fields": [],
+                "slice": {
+                    "fields": [],
+                    "ignoreMissingFields": true,
+                    "mode": "DROP"
+                }
+            },
+            "sources": [
+                "DROP_FIELDS0",
+                "AGGREGATE1"
+            ]
+        },
+        "OUTPUT0": {
+            "action": "save",
+            "parameters": {
+                "dataset": {
+                    "label": "Final_Output",
+                    "name": "Final_Output",
+                    "type": "analyticsDataset"
+                },
+                "fields": [],
+                "measuresToCurrencies": []
+            },
+            "sources": [
+                "JOIN5"
+            ]
+        }
+    },
+    "ui": {
+        "nodes": {
+            "LOAD_DATASET0": {
+                "label": "olist_sellers_dataset",
+                "type": "LOAD_DATASET",
+                "top": 532,
+                "left": 811.9,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "LOAD_DATASET2": {
+                "label": "olist_orders_dataset",
+                "type": "LOAD_DATASET",
+                "top": 532,
+                "left": 532.3,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "LOAD_DATASET3": {
+                "label": "olist_order_reviews_dataset_sample_20k_orders",
+                "type": "LOAD_DATASET",
+                "top": 252.5,
+                "left": 532.4,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "LOAD_DATASET4": {
+                "label": "olist_order_items_dataset",
+                "type": "LOAD_DATASET",
+                "top": 532,
+                "left": 671.9,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "JOIN0": {
+                "label": "order_id",
+                "type": "JOIN",
+                "top": 392.6,
+                "left": 532.2
+            },
+            "JOIN1": {
+                "label": "order_id",
+                "type": "JOIN",
+                "top": 392.1,
+                "left": 672.2
+            },
+            "JOIN2": {
+                "label": "seller_id",
+                "type": "JOIN",
+                "top": 392.1,
+                "left": 811.8
+            },
+            "LOAD_DATASET5": {
+                "label": "olist_products_dataset_sample_20k_orders(1)",
+                "type": "LOAD_DATASET",
+                "top": 252,
+                "left": 812.1,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "JOIN3": {
+                "label": "product_id",
+                "type": "JOIN",
+                "top": 392,
+                "left": 952.1
+            },
+            "JOIN4": {
+                "label": "translate",
+                "type": "JOIN",
+                "top": 252.10000000000002,
+                "left": 952
+            },
+            "TRANSFORM0": {
+                "label": "Transform",
+                "type": "TRANSFORM",
+                "top": 392,
+                "left": 1092,
+                "graph": {
+                    "SPLIT1": {
+                        "label": "Split"
+                    },
+                    "SPLIT2": {
+                        "label": "Split"
+                    },
+                    "SPLIT3": {
+                        "label": "Split"
+                    },
+                    "DROP_FIELDS0": {
+                        "label": "Drop Columns"
+                    }
+                },
+                "connectors": [
+                    {
+                        "source": "SPLIT2",
+                        "target": "SPLIT1"
+                    },
+                    {
+                        "source": "SPLIT1",
+                        "target": "SPLIT3"
+                    },
+                    {
+                        "source": "SPLIT3",
+                        "target": "DROP_FIELDS0"
+                    }
+                ]
+            },
+            "LOAD_DATASET7": {
+                "label": "product_category_name_translation(1)",
+                "type": "LOAD_DATASET",
+                "top": 251.7,
+                "left": 1092,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "AGGREGATE0": {
+                "label": "Avg_review_score",
+                "type": "AGGREGATE",
+                "top": 531.9,
+                "left": 1092,
+                "graph": {
+                    "EXTRACT0": null,
+                    "AGGREGATE1": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT0",
+                        "target": "AGGREGATE1"
+                    }
+                ]
+            },
+            "JOIN5": {
+                "label": "Concat",
+                "type": "JOIN",
+                "top": 391.8,
+                "left": 1232
+            },
+            "OUTPUT0": {
+                "label": "Olist",
+                "type": "OUTPUT",
+                "top": 392,
+                "left": 1372
+            }
+        },
+        "connectors": [
+            {
+                "source": "LOAD_DATASET2",
+                "target": "JOIN0"
+            },
+            {
+                "source": "LOAD_DATASET3",
+                "target": "JOIN0"
+            },
+            {
+                "source": "LOAD_DATASET4",
+                "target": "JOIN1"
+            },
+            {
+                "source": "JOIN0",
+                "target": "JOIN1"
+            },
+            {
+                "source": "JOIN1",
+                "target": "JOIN2"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "JOIN2"
+            },
+            {
+                "source": "JOIN2",
+                "target": "JOIN3"
+            },
+            {
+                "source": "JOIN4",
+                "target": "JOIN3"
+            },
+            {
+                "source": "LOAD_DATASET5",
+                "target": "JOIN4"
+            },
+            {
+                "source": "JOIN3",
+                "target": "TRANSFORM0"
+            },
+            {
+                "source": "LOAD_DATASET7",
+                "target": "JOIN4"
+            },
+            {
+                "source": "TRANSFORM0",
+                "target": "AGGREGATE0"
+            },
+            {
+                "source": "TRANSFORM0",
+                "target": "JOIN5"
+            },
+            {
+                "source": "AGGREGATE0",
+                "target": "JOIN5"
+            },
+            {
+                "source": "JOIN5",
+                "target": "OUTPUT0"
+            }
+        ],
+        "hiddenColumns": []
+    }
+}
