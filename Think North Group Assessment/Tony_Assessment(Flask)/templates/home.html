@@ -1,0 +1,27 @@
+{% extends "base.html"%} {% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="title_of_ml">
+    <h5> We used datasets from a Brazilian e-commerce company, Olist, from 2020 to 2021. 
+        This project is for educational purposes, showing the implimentation of Machine Learning within Flask.<br>
+        In this project, we use "Total Revenue" as our target variable and use Gradient Boosting as the main algorithm for this regression problem.<br>
+        Our scoring function was RMSE.
+    </h5>
+</div>
+<div class="login">
+    <h1> Predict Total Revenue </h1>
+    <form action="{{url_for('views.predict')}}" method="POST">
+        <input type="text" name="# Won Deals" placeholder="# Won Deals (Enter values between 1 - 3)" required="required" />
+        <input type="text" name="Average Deal Size" placeholder="Average Deal Size" required="required" />
+        <input type="text" name="Product Rank" placeholder="Product Rank" required="required" />
+        <input type="text" name="Top Product Total Price" placeholder="Top Product Total Price" required="required" />
+
+        <button type="submit" class = "btn btn-primary btn-block btn-large"> Predict! </button>
+    </form>
+    <br>
+    <br>
+    {{prediction_text}}
+</div>
+
+{% endblock %}
+
