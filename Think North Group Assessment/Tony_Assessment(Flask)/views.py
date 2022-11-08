@@ -11,10 +11,6 @@ model = pickle.load(open('model/Total_Rev.pkl', 'rb'))
 def home():
     return render_template('home.html', user=current_user)
 
-# @views.route("/")
-# def home():
-#     return render_template('index.html')
-
 @views.route('/predict', methods=['POST'])
 @login_required
 def predict():
