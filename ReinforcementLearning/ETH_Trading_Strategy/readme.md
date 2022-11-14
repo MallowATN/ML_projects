@@ -15,7 +15,7 @@
     </h2>
     <h2>Reinforcement Learning - Trading Strategy</h2>
     <h4>We'll have 3 components: POLICY DEVELOPMENT, PARAMETER OPTIMIZATION, BACKTEST <br></h4>
-    <h4><ul>Reinforcement components:<ul>
+    <h4><ul>Reinforcement Learning components:<ul>
         <li>Agent = Trading</li>
         <li>Action = Buy/Sell/HODL</li>
         <li>Reward = Realized gains/losses</li>
@@ -25,4 +25,9 @@
     <h4>Deep Q Learning </h4>
     <h5>Deep Q Learning Algorithm approximates Q-values by learning sets of weights through series of hidden layers in the Deep Q-network that maps states to action... The algorithm aims to stabilize the training process of Q-learning through:
     <li>Experience replay</li><li>Periodic target update</li></h5>
+    <br>
+    <h6>Disclaimer: None of the Finance section is considered financial advice, and that everything  that is stated should be taken with a grain of salt. This is solely for educational usage/purpose. I am not responsible for anyone's action for buying/selling crypto or 
+    securities.<br>
+    -TN
+    </h6>
 </div>
