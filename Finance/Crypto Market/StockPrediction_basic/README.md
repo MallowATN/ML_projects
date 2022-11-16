@@ -8,8 +8,6 @@
     <h2>I used a Random Forest Regressor algorithm for the basic ETH prediction and evaluated the model with R2 scoring.</h2>
     <img src="images/SelectKBest.png" alt="featureselect">
     <br>
-    <h4> Note that this does not cover the whole features that needs to be feature engineered, I only applied the basic principles of Machine Learning for my own knowledge. If you want to learn more about feature implimentation, you can search on investopedia and create the custom features, much like how I've set some of them up in one of my notebooks.
+    <h4> Note that this does not cover the whole features that needs to be feature engineered, I only applied the basic principles of Machine Learning for my own knowledge. If you want to learn more about feature implimentation, you can search on investopedia and create the custom features, much like how I've set some of them up in one of my notebooks.</h4>
 </div>
-
-
 <h6> None of this is considered financial advice, I will not be responsible for any transactions involving crypto or stock market. This is for educational purposes only.</h6>
