@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 
 # Loading the data
-df = pd.read_csv('ETH-USD.csv')
+df = pd.read_csv('data/ETH-USD.csv')
 
 # Load the Feature Engineered functions from functions.py
 signals(df)

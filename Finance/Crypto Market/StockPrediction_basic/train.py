@@ -12,7 +12,7 @@ from functions import *
 #########################################
 
 # Load the data
-df = pd.read_csv("ETH-USD.csv")
+df = pd.read_csv("data/ETH-USD.csv")
 
 # Prepare the dataframe
 df = df.set_index('Date')
