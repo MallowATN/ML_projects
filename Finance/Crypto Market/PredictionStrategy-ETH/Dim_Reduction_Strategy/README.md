@@ -2,7 +2,7 @@
 <div class = "Summary">
     <h4> The main goal of this project is to show how to apply dimensionality reduction using Singular Value Decomposition, which is classified under Unsupervised Learning. The idea behind this project is to reduce the number of features, given a dataset that has a lot of dimensions and enhance computation speed of an algorithm while retaining 95% of the variance and high accuracy. </h4>
     <br>
-    <h4> Below is the result of using PCA with TruncatedSVD method to transform the full dataset into set of eigenvalues. Here, we've preserved close to 95% variance of our data in just 9-10 Eigenvalues, which is great compared to the original 30+ features. This is very useful compression for the analysis and iterations of the model.
+    <h4> Below is the result of using PCA with TruncatedSVD method to transform the full dataset into set of eigenvalues. Here, we've preserved close to 95% variance of our data in just 9-10 Eigenvalues, which is great compared to the original 30+ features. This is very useful compression for the analysis and iterations of the model.<br>
     <img src="images/ExplainedVariance.png" alt="Explained Variance">
     <img src="images/Cumulative Explained Variance by factor.png" alt="Cumulative EV">
     <br><br>
