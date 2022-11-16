@@ -1,0 +1,4 @@
+Time Without Dimensionality Reduction--- 0.8339278697967529 seconds --- 
+Result without Dimensionality Reduction: 0.981532 (0.016485)
+Time With Dimensionality Reduction--- 0.8272619247436523 seconds --- 
+Result with Dimensionality Reduction: 0.964850 (0.020113)
