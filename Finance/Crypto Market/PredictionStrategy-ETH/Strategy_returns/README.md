@@ -14,7 +14,8 @@
     <img src="images/classif_report.png" alt="classification report">
     <br>
     <h4> The Backtest result:</h4>
-    <img src="images/Backtest - strat return vs actual return" alt="Backtest">
+    <img src="images/Backtest - strat return vs actual return histogram.png" alt="Backtest">
+    <img src="images/Backtest - strat return vs actual return.png" alt="Backtest">
     <h4>We don't deviate significantly from the actual market return, just a different magnitude, but even then, this strategy helps us become better at predictiong price direction for profit returns. However, our accuracy isn't 100%, but more than 95%, it made us have relatively few losses compared to the actual return. </h4>
 </div>
 <h6> None of this is considered financial advice, I will not be responsible for any transactions involving crypto or stock market. This is for educational purposes only.</h6>
