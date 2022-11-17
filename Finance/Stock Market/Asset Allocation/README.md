@@ -4,7 +4,7 @@
     <br>
     <h4> Below is the result of using PCA method to transform the full dataset into set of eigenvalues. Here, instead of trying to retain 95% variance, we want to decompose the dataset into separate portfolios and analyze our features within each of these portfolios.<h/4><br>
     <img src="images/ExplainedVariance.png" alt="ExplainedVariance">
-    <h4> Soo... the iost important factor (Eigenvalue = 0, or portfolio 0) can explain about 40% of daily return variance, of the 28 eigenvalues/portfolio. At around portfolio 10, about 70% of variance is explained in relation to the 28 other portfolios... etc. <br><br><h/4>
+    <h4> Soo... the most important factor (Eigenvalue = 0, or portfolio 0) can explain about 40% of daily return variance, of the 28 eigenvalues/portfolio. At around portfolio 10, about 70% of variance is explained in relation to the 28 other portfolios... etc. <br><br><h/4>
     <h3>Below is the first 5 portfolio that was projected from the PCA algorithm.</h3>
     <img src="images/Portfolios.png" alt="Portfolios">
     <h4>So portfolio 0 explains that the weights are distributed equally and also explains 40% of the variance in the DJIA index... fair representation of the systemic risk factor<br>
