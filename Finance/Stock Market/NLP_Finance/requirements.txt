@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+nltk
+textblob
+spaCy
+backtrader
+yfinance
+lxml
+keras
+tensorflow
+sklearn
+pkg_resources
