@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 import yfinance as yf
 from lxml import etree
@@ -6,15 +5,13 @@ from io import StringIO
 import zipfile
 import json
 from datetime import date
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
-tickers = ['AAPL','ADBE','AMD','AMC','AMZN','BBBY','JPM','GOOG','GME','INTC','NFLX','TSLA','WMT']
-data_df_news = []
+tickers = ['AAPL','ADBE','AMD','AMC','AMZN','JPM','GOOG','GME','INTC','NFLX','TSLA']
 
 def get_tick_data():
     start = '2008-01-01'
-    end = '2019-10-7'
+    end = '2019-01-01'
     df_ticker_return = pd.DataFrame()
     for ticker in tickers:
         ticker_yf = yf.Ticker(ticker)
@@ -41,6 +38,7 @@ def jsonParser(json_data):
         final_headlines = [f.replace(h, '').split('\xa0')[0].strip() for f,h in zip (final_headlines, headlines)]
     return main_tickers, final_headlines
 
+data_df_news = []
 def jsonextractor():
     data = None
     with zipfile.ZipFile('Data/Raw Headline Data.zip','r') as z:
@@ -66,6 +64,7 @@ def jsonextractor():
             except:
                 pass
 
+
 def add_features(df_ticker_return):
     #compute return
     df_ticker_return['ret_curr'] = df_ticker_return['Close'].pct_change()
@@ -73,21 +72,3 @@ def add_features(df_ticker_return):
     df_ticker_return['eventRet'] = df_ticker_return['ret_curr'] + df_ticker_return['ret_curr'].shift(-1) + df_ticker_return['ret_curr'].shift(1)
     df_ticker_return.reset_index(level=0, inplace=True)
     df_ticker_return['date'] = pd.to_datetime(df_ticker_return['Date']).apply(lambda x: x.date())
-
-def lex_analyzer():
-    sia = SentimentIntensityAnalyzer()
-    stock_lex = pd.read_csv('data\LexiconData.csv')
-    stock_lex['sentiment'] = (stock_lex['Aff_Score'] + stock_lex['Neg_Score'])/2
-    stock_lex = dict(zip(stock_lex.Item, stock_lex.sentiment))
-    stock_lex = {k:v for k,v in stock_lex.items() if len(k.split(' '))==1}
-    stock_lex_scaled = {}
-    for k, v in stock_lex.items():
-        if v > 0:
-            stock_lex_scaled[k] = v / max(stock_lex.values()) * 4
-        else:
-            stock_lex_scaled[k] = v / min(stock_lex.values()) * -4
-
-    final_lex = {}
-    final_lex.update(stock_lex_scaled)
-    final_lex.update(sia.lexicon)
-    sia.lexicon = final_lex
