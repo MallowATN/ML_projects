@@ -26,8 +26,8 @@ def test_data_leak(data_preparation):
     assert concat_df.shape[0] == X_train.shape[0] + X_test.shape[0]
 
 # example...
-def test_predicted_output_shape(gradient_boost_reg_prediction):
+def test_output_shape(gradient_boost_reg_prediction):
     print("Gradient Boost Regression")
     X_test, y_pred = gradient_boost_reg_prediction
-    check.equal(y_pred.shape, (X_test.shape[0],))
+    check.equal(y_pred.shape, (X_test.shape[0],1))
     # assert y_pred.shape == (X_test.shape[0],1)
