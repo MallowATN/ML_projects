@@ -6,6 +6,7 @@ from src.util.data_prep import split_train_test_data
 from src.model.train_model import gradient_boost_reg
 from src.model.predict_model import pred_test
 
+
 @pytest.fixture
 def data_preparation():
     preprocessing()
@@ -29,4 +30,4 @@ def test_predicted_output_shape(gradient_boost_reg_prediction):
     print("Gradient Boost Regression")
     X_test, y_pred = gradient_boost_reg_prediction
     check.equal(y_pred.shape, (X_test.shape[0],))
-    assert y_pred.shape == (X_test.shape[0],1)
+    # assert y_pred.shape == (X_test.shape[0],1)
