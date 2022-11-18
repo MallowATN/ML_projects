@@ -7,7 +7,7 @@ from views import views
 #     model = pickle.load()
 
 app = Flask(__name__)
-model = pickle.load(open('model/Total_Rev.pkl', 'rb'))
+model = pickle.load(open('retired/Total_Rev.pkl', 'rb'))
 
 app.register_blueprint(views, url_prefix="/")
 

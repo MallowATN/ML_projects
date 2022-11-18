@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import GradientBoostingRegressor
 
 # Create the dataset
-df = pd.read_csv(r'c:\Users\antho\Desktop\Tony_Assessment\model\Account_Sales.csv')
+df = pd.read_csv(r'c:\Users\antho\Desktop\Tony_Assessment\retired\Account_Sales.csv')
 
 # Dropped these features in our 'Final_TR_model.ipynb' file. Check for the feature selection tab.
 df = df.drop(['Days Since Most Recent Deal Close','Employees','Billing Country','Industry',

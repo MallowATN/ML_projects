@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+pytest
+setuptools
+coverage
+awscli
+flake8
+flask
