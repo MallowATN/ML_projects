@@ -1,4 +1,4 @@
-<h1> ETH Basic Prediction Bot </h1>
+<h1> ETH Strategy Return </h1>
 <div class = "Summary">
     <h4> The main goal of this project is to show the elements of prediction using ETH dataset webscraped from CoinMarketCap. The idea behind this project is to find more useful features from professional traders and apply it using Machine Learning. This time, we evaluate the potential backtest trading strategy on Ethereum mostly for an investment approach. This lets us analyze risk and profitability before risking any actual capital. </h4>
     <br>
