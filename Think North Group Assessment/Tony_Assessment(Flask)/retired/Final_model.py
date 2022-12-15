@@ -26,7 +26,6 @@ pipe = Pipeline([('std_scaler', StandardScaler()),
                  ('GBR',GradientBoostingRegressor(n_estimators=150))])
 pipe.fit(X_train, y_train)
 
-
 # print(pipe.predict(X))
 
 # Saving and loading model
