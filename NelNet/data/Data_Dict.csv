@@ -1,0 +1,20 @@
+﻿Attribute Name,Description
+wombus_id,ID number assigned to the Wombus
+birth_continent,Continent Wombus was born on
+gender,Male/Female designation for Wombus
+age,Age of Wombus (in years)
+college_degree,Whether or not the Wombus holds a college degree
+problem_solving_skill,Measurement of a Wombus’s ability to problem solve on a scale of 30 (worst) to 1 (best)
+technology_skill,Measurement of a Wombus’s technological ability on a scale of 40 (worst) to 1 (best)
+english_skill,Measurement of a Wombus’s English ability on a scale of 0 (worst) to 10 (best)
+most_recent_income,Amount of money in WombiCoin (a Wombus cryptocurrency) paid annually at last job
+total_jobs,Total number of jobs the Wombus has had
+shirt_color_preference,Which color of Nelnet t-shirt the Wombus requested in their application (company swag is important)
+customer_exp_preference,Strong Agree to Strongly Disagree response for providing superior customer experiences
+work_env_preference,Strong Agree to Strongly Disagree response for creating an awesome work environment
+personal_growth_preference,Strong Agree to Strongly Disagree response for pursuing opportunities for growth
+honest_communication_preference,Strong Agree to Strongly Disagree response for communicating openly and honestly
+community_service_preference,Strong Agree to Strongly Disagree response for giving back to the communities in which we live and work
+remote_work_preference,"Preference of working Remote, On-Site, or Hybrid (both remote and on-site)"
+Industry_preference,"Preference of working in one of the following industries: Tech, Finance, Renewable Energy, Higher Education, and Telecommunications"
+score,Performance score from the Wombus’s most recent review - only present in the employee file
