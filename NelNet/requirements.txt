@@ -4,11 +4,9 @@ pandas
 matplotlib
 seaborn
 scipy
-
-statsmodels
-keras
-pickle
+Pillow
 kaleido==0.1.0post1
 
 # Machine Learning modules
 scikit-learn
+tensorflow
