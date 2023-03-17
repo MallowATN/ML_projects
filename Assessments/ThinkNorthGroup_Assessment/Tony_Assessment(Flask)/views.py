@@ -3,6 +3,7 @@ import numpy as np
 import pickle
 from flask_login import login_required, current_user
 
+
 views = Blueprint("views", __name__)
 model = pickle.load(open('retired/Total_Rev.pkl', 'rb'))
 
